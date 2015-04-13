@@ -1,0 +1,100 @@
+﻿<?Infragistics.Models format="xaml" version="28"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                         Id="3fe22b31-a5d7-b853-a4f0-2470d670a3d5">
+    <Page.Content>
+        <Content Width="360" Height="598" Id="62ab629a-c9a2-62e6-d84d-3e904b1d9dde">
+            <Content.Layers>
+                <Layer Id="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="a156408a-8d57-7381-0585-ca02f4bf56e6" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="360,598" Id="ed48897b-e82b-cd1b-8f6e-17306c82f1df" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="b89415f4-e941-b986-97e5-69798a02534b" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="04/09/2015 17:20:00" Id="13c3aa73-85ba-abc1-3104-593789a94fb3">
+            <Scene.KeyFrames>
+                <KeyFrame Id="86a317d4-d4fa-c82d-9895-e7507a99c428">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Image SourcePath="assets/chow-mein.jpg" Id="5cbfa688-c271-0b26-169b-8993cfcfacdd" Panel.Bounds="1,0,360{5,2147483647},240{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Rectangle Color="#00FFFFFF" Background="#FFC6C6C6" Opacity="0.6" Id="5867e326-e7df-64de-498e-fe99d6a4420f" Panel.Bounds="0,0,359{5,2147483647},51{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="iOS 7 Back" Id="ad94d799-61aa-e1ab-4137-df109ae59249" Panel.Bounds="10,6,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="ad94d799-61aa-e1ab-4137-df109ae59249" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Label Text="Your PEPPERS expire in 2 days" Id="0f12f217-84f6-c87a-28d7-0d065ababcc2" Panel.Bounds="62,266,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="0f12f217-84f6-c87a-28d7-0d065ababcc2" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="Remove" Id="6be98637-0cd8-99d8-ea6c-836f64a0b1af" Panel.Bounds="308,259,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="6be98637-0cd8-99d8-ea6c-836f64a0b1af" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="iOS 7 Clock" Id="639f3152-04c9-9f90-b14a-7a8b02a7f607" Panel.Bounds="18,259,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="639f3152-04c9-9f90-b14a-7a8b02a7f607" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Rectangle Color="#00FFFFFF" Background="#FFF68324" Id="d14a5d0e-afee-79ea-45fb-4d875074ef12" Panel.Bounds="9,249,344{5,2147483647},51{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="d14a5d0e-afee-79ea-45fb-4d875074ef12" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Title Text="Chow mein" Foreground="#FFFFFFFF" FontSize="26" FontStyle="Bold" Id="6b5abf98-a188-df2e-dcd5-5b8a8ac50fab" Panel.Bounds="49,6,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Title Text="Ingredients" Id="bd739b2a-1eed-42d3-162b-f2f9ea9d3768" Panel.Bounds="18,312,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <ListBox Id="cb6cc34d-a89d-51c6-5330-e1cffbd00a4d" Panel.Bounds="18,371,328{5,2147483647},157{5,2147483647}">
+                                    <ListBox.Items>
+                                        <Item Text="3 cups of NOODLES" Id="de7983b0-98c1-b4a7-04aa-b9403a0f744a" />
+                                        <Item Text="1/4 PEPPER" Id="d2696716-8837-919e-554a-2dbc8194c9e6" />
+                                        <Item Text="1/4 cup MUSHROOMS" Id="1bee9a99-8082-65dd-e2e8-7bd4e5a21327" />
+                                        <Item Text="2 EGGS" Id="42cccb4a-611b-ed2f-484e-0ee37d0ef299" />
+                                        <Item Text="1/4 cup water" Id="819bec65-7c51-a026-356d-651b57479570" />
+                                        <Item Text="2 tsp SOY SAUCE" Id="563ad160-f6ed-47e2-5b64-2d0e28125c91" />
+                                    </ListBox.Items>
+                                </ListBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Label Text="swipe to stark cooking" FontStyle="Italic" Id="214e83fd-cc6d-066d-5a34-77cab2b31cd9" Panel.Bounds="184,550,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Icon CatalogId="Right Fill Triangle" Id="f3c7381f-efd5-6b65-e48e-6bd8dbdcb361" Panel.Bounds="314,546,26{5,2147483647},26{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

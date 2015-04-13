@@ -1,0 +1,93 @@
+﻿<?Infragistics.Models format="xaml" version="28"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                         Id="3fe22b31-a5d7-b853-a4f0-2470d670a3d5">
+    <Page.Content>
+        <Content Width="360" Height="598" Id="62ab629a-c9a2-62e6-d84d-3e904b1d9dde">
+            <Content.Layers>
+                <Layer Id="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="a156408a-8d57-7381-0585-ca02f4bf56e6" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="360,598" Id="ed48897b-e82b-cd1b-8f6e-17306c82f1df" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="b89415f4-e941-b986-97e5-69798a02534b" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="04/09/2015 17:20:00" Id="13c3aa73-85ba-abc1-3104-593789a94fb3">
+            <Scene.KeyFrames>
+                <KeyFrame Id="86a317d4-d4fa-c82d-9895-e7507a99c428">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Rectangle Color="#00FFFFFF" Background="#FFC6C6C6" Opacity="0.6" Id="5867e326-e7df-64de-498e-fe99d6a4420f" Panel.Bounds="0,0,359{5,2147483647},51{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="iOS 7 Back" Id="ad94d799-61aa-e1ab-4137-df109ae59249" Panel.Bounds="10,6,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="ad94d799-61aa-e1ab-4137-df109ae59249" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Title Text="Chow mein" Foreground="#FFFFFFFF" FontSize="26" FontStyle="Bold" Id="6b5abf98-a188-df2e-dcd5-5b8a8ac50fab" Panel.Bounds="49,6,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Title Text="Boil noodles" Id="bd739b2a-1eed-42d3-162b-f2f9ea9d3768" Panel.Bounds="16,276,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <ListBox Id="cb6cc34d-a89d-51c6-5330-e1cffbd00a4d" Panel.Bounds="16,335,328{5,2147483647},157{5,2147483647}">
+                                    <ListBox.Items>
+                                        <Item Text="Bring water to a boil" Id="de7983b0-98c1-b4a7-04aa-b9403a0f744a" />
+                                        <Item Text="Add noodles" Id="9035db20-0278-ab1f-efa5-7112ecc44709" />
+                                        <Item Text="Turn burner to medium" Id="4ef8d0e0-b665-0a60-710c-527fb01b3594" />
+                                        <Item Text="Let boil for 5 minutes" Id="a5cac093-c950-0799-cfd1-4a6488562c28" />
+                                    </ListBox.Items>
+                                </ListBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="5867e326-e7df-64de-498e-fe99d6a4420f" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Image SourcePath="assets/PastedImage(1).png" Id="bb518f50-0199-b2ed-bf06-1e8b18c5bcca" Panel.Bounds="0,0,360{5,2147483647},270{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Icon CatalogId="Right Fill Triangle" Id="0f7ee3aa-45da-b503-e6a1-794440dcf29d" Panel.Bounds="314,546,26{5,2147483647},26{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Icon CatalogId="Left Fill Triangle" Id="ce1d969f-a3d8-705b-a57e-19566d04e90c" Panel.Bounds="20,546,26{5,2147483647},26{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Icon CatalogId="Ellipsis" Id="b6616123-e13a-a4e4-8b90-2e275b401dcb" Panel.Bounds="165,543,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Icon Color="#FFC40000" CatalogId="Record" Id="1a863f00-b280-46fa-ac9f-13ec97516299" Panel.Bounds="153,555,7{5,2147483647},7{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c406c4d0-b9f1-a74b-5b22-4b7d79fd7aee">
+                            <Add.Item>
+                                <Icon Color="#FF717171" CatalogId="Record" Id="2dc164d8-4076-e2af-9987-90425a1ddeee" Panel.Bounds="142,555,7{5,2147483647},7{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

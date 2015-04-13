@@ -1,0 +1,69 @@
+﻿<?Infragistics.Models format="xaml" version="2"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                              xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                              Id="e2816f13-97e9-6859-48f3-0ab8c5051066" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="360" Height="46" Background="#00FFFFFF" Id="5c860d5c-ccd6-0c2d-ab7a-4db012f04adb">
+            <BorderedContent.Layers>
+                <Layer Id="3c47bae7-5956-f7ae-e796-d504e88da18e" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="5fd2c2be-7cb1-766f-1c6e-7fe31bbdf071" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="be3c2c26-eb1b-efdc-87e6-e676519b0ae1" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="87103b5f-ee16-e745-5e81-0e9f781e6513" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="04/09/2015 16:36:12" Id="cf2ac851-3fd1-1ab5-46fd-0e0d2e0d5e82">
+            <Scene.KeyFrames>
+                <KeyFrame Id="260842e2-6f74-7e84-fb53-03494f326f6f">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="3c47bae7-5956-f7ae-e796-d504e88da18e">
+                            <Add.Item>
+                                <Triangle Thickness="3" IsClosed="True" RotationAngle="270.497084068476" Color="#FFFFFFFF" Background="#00FFFFFF" Id="6d4ee42b-9626-d3ba-311f-25e5f80624c4" Panel.Bounds="68,2,40,40">
+                                    <Triangle.StartPoint>
+                                        <Point Y="50" Id="52de8d26-7670-8a5d-3f0a-d31bbc3855b7" />
+                                    </Triangle.StartPoint>
+                                    <Triangle.Segments>
+                                        <Segment Id="20325a2f-6c92-ed9d-b934-e3a8933702ab">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Id="1aa02691-6429-ad20-c2a5-08d73fd85df0" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="addb4a36-c41b-8efc-12d6-d58b1a7a7c6a">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Y="100" Id="ea3da917-a97a-49de-347e-71883916c339" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="f8537980-afcb-ca9a-1d65-a644f5733ef9">
+                                            <Segment.EndPoint>
+                                                <Point Y="50" Id="4e606c25-50a4-5280-4d11-5a59c27d8370" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Triangle.Segments>
+                                </Triangle>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="3c47bae7-5956-f7ae-e796-d504e88da18e">
+                            <Add.Item>
+                                <Ellipse Thickness="3" Color="#FFFFFFFF" Background="#00FFFFFF" Id="c616fd3e-030f-21a5-1d27-4a339dd25b8a" Panel.Bounds="160,2,40{5,2147483647},40{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="3c47bae7-5956-f7ae-e796-d504e88da18e">
+                            <Add.Item>
+                                <Rectangle Thickness="3" Color="#FFFFFFFF" Background="#00FFFFFF" Id="2995135b-6d48-f0be-4ff8-4662ba608d46" Panel.Bounds="252,3,40{5,2147483647},40{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.Background" Value="#FF000000" Target="5c860d5c-ccd6-0c2d-ab7a-4db012f04adb" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

@@ -1,0 +1,53 @@
+﻿<?Infragistics.Models format="xaml" version="2"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                              xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                              Id="747d7023-6e05-48a9-aa74-ba9f72cdc59f" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="55" Height="44" Background="#00FFFFFF" Id="8bf01e66-ea59-f0fa-bee6-091ed67a2e22">
+            <BorderedContent.Layers>
+                <Layer Id="9557ef79-0bab-a0e5-8009-a2aeaf98ea35" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="1c23c114-9934-8a9d-362a-7c5cd843ddd1" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="83d4e132-e335-4fac-48f6-9e6921148712" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="a1da6122-15c8-9deb-e649-ad0d06aadf72" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="04/09/2015 17:07:57" Id="f931c594-6165-1a2c-4623-5cc06ebcbdab">
+            <Scene.KeyFrames>
+                <KeyFrame Id="069974e6-0d67-003d-79a1-0359f55d089a">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="9557ef79-0bab-a0e5-8009-a2aeaf98ea35">
+                            <Add.Item>
+                                <Ellipse Thickness="5" Id="bb6d255c-92d6-9309-73cd-770ca3d71c2f" Panel.Bounds="8,3,25{5,2147483647},25{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="9557ef79-0bab-a0e5-8009-a2aeaf98ea35">
+                            <Add.Item>
+                                <Line Thickness="6" RotationAngle="45" Background="#00FFFFFF" Id="8fdd32f2-5fc8-2b48-e656-df050e4ad089" Panel.Bounds="25,19,21,21">
+                                    <Line.StartPoint>
+                                        <Point X="10" Y="-55" Id="5325cb70-2693-9377-e985-a7bd879eed46" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="ce31c828-28e5-5690-da49-83bdf7e484b6">
+                                            <Segment.EndPoint>
+                                                <Point X="31" Y="-34" Id="2093816d-07da-5756-cb08-a413be395c61" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

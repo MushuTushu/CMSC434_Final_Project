@@ -1,0 +1,184 @@
+﻿<?Infragistics.Models format="xaml" version="28"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                         Id="5b68844e-1b3f-8b3f-f248-88101f8902f4">
+    <Page.Content>
+        <Content Width="360" Height="598" Id="226e0406-13f7-200b-051a-09495fee665f">
+            <Content.Layers>
+                <Layer Id="84c566af-35db-f959-d806-ba84c499e275" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="6a4ddb8c-cbfd-2837-09a7-78d2bb5324b8" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="360,598" Id="1d79a546-6270-8c6e-0b5e-4cf3c2fab217" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="cd484fde-13fd-70d3-4113-d5a042d9cc0f" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="04/09/2015 16:32:26" Id="94f6ba60-6d57-2285-a670-07434da8689e">
+            <Scene.KeyFrames>
+                <KeyFrame Id="9271b5cf-f939-94c9-f293-68f172cce7fa">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Title Text="Fridge.me" FontSize="26" Id="2e53b7c5-8848-150e-90d8-57b99268bd0c" Panel.Bounds="49,6,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Icon CatalogId="iOS 7 Search" Id="67dd2c5a-a0ca-c06a-f54b-4f42716440da" Panel.Bounds="322,8,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Icon CatalogId="Placeholder" Id="e9efdeb8-b198-045a-7d00-59a1168659ef" Panel.Bounds="10,5,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Image SourcePath="assets/chow-mein_crop.jpg" Id="a7589475-14b1-8a04-2b44-05e23e7270c8" Panel.Bounds="185,93,153{5,2147483647},146{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Image SourcePath="assets/chicken_tenders_crop.jpg" Id="3c93e627-eea5-ccf9-8a20-b8006765de58" Panel.Bounds="17,93,148{5,2147483647},146{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Image SourcePath="assets/Chili-Rellenos_crop.jpg" Id="e35f0a31-6244-ffec-8db0-786901528bcf" Panel.Bounds="17,260,148{5,2147483647},146{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Image SourcePath="assets/General-Tso’s-Chicken_crop.jpg" Id="3defb667-3450-9e00-7599-d59df0d8abe0" Panel.Bounds="17,427,148{5,2147483647},146{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Image SourcePath="assets/Zucchini-Boats_long.jpg" Id="ea631af7-d9d8-3b21-9a3d-3337c280e258" Panel.Bounds="185,256,153{5,2147483647},188{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="2e53b7c5-8848-150e-90d8-57b99268bd0c" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Image SourcePath="assets/Creamy-Tomato-Soup_crop.jpg" Id="8c37926d-d071-44f9-b92c-632cc4a4c370" Panel.Bounds="185,458,153{5,2147483647},150{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="8c37926d-d071-44f9-b92c-632cc4a4c370" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Tabs Id="f3efe443-4d4f-265c-73f8-e955b133bbc4" Panel.Bounds="0,45,360{5,2147483647},553{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Recipes" IsSelected="True" Id="66bf6731-9151-731d-3adc-dda2725b3130">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="c33bf3a8-f0d3-4f40-28d3-d20d7e94ba25" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Shopping" Id="ea133d1d-972e-6fc8-2509-261873b94185">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="b2a062de-c754-f90c-988d-a6d48a7a91b1" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Rectangle Color="#00FFFFFF" Background="#FF555555" Opacity="0.8" Id="b3577107-dcff-2138-8280-fe61e4145cec" Panel.Bounds="17,188,148{5,2147483647},51{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Rectangle Color="#00FFFFFF" Background="#FF555555" Opacity="0.8" Id="144af383-f111-89cb-0a92-3ac1344ff492" Panel.Bounds="185,188,153{5,2147483647},51{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Rectangle Color="#00FFFFFF" Background="#FF555555" Opacity="0.8" Id="cf59e32f-9cfb-e22a-8db9-652fdfd1c1d8" Panel.Bounds="17,355,148{5,2147483647},51{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Rectangle Color="#00FFFFFF" Background="#FF555555" Opacity="0.8" Id="06afe941-a324-4a64-2762-61b91174c934" Panel.Bounds="185,393,153{5,2147483647},51{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Rectangle Color="#00FFFFFF" Background="#FF555555" Opacity="0.8" Id="1ee93872-faa7-e970-beba-521f1d15a82f" Panel.Bounds="17,522,148{5,2147483647},51{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Label Text="Chicken tenders" Foreground="#FFFFFFFF" FontSize="16" FontStyle="Bold" Id="8aa48bd2-23a2-0772-2e37-b08f4ea8595e" Panel.Bounds="23,203,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Label Text="Chow mein" Foreground="#FFFFFFFF" FontSize="16" FontStyle="Bold" Id="45dc47c5-9a58-118f-de4a-169627e741d7" Panel.Bounds="193,203,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Label Text="Chili Rellenos" Foreground="#FFFFFFFF" FontSize="16" FontStyle="Bold" Id="f6e14595-da66-80d9-9dc0-20b3c76cb79e" Panel.Bounds="23,369,158{5,2147483647},22*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Label Text="Zucchini boats" Foreground="#FFFFFFFF" FontSize="16" FontStyle="Bold" Id="c66af8d0-6a50-1b05-9a3b-8dac67647c88" Panel.Bounds="190,407,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Icon IsSelected="True" Color="#FF349C42" CatalogId="iOS 7 Clock" Id="e0379ed8-7e51-c1f3-1c86-c8d98b2faf48" Panel.Bounds="301,260,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Icon IsSelected="True" Color="#FF349C42" CatalogId="iOS 7 Clock" Id="299e1a9d-2a51-d070-e2e1-728473234e2a" Panel.Bounds="129,432,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Icon IsSelected="True" Color="#FFE3E300" CatalogId="iOS 7 Clock" Id="f85fd6e6-4600-04fd-801d-6c2047a439da" Panel.Bounds="129,260,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Icon IsSelected="True" Color="#FFF68324" CatalogId="iOS 7 Clock" Id="980cfb96-205f-6bfa-6e40-98ff32b7a020" Panel.Bounds="301,96,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Icon IsSelected="True" Color="#FFF68324" CatalogId="iOS 7 Clock" Id="da27b32f-9587-80c3-0b55-9a2454310d8b" Panel.Bounds="129,96,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Icon IsSelected="True" Color="#FF349C42" CatalogId="iOS 7 Clock" Id="58d75498-ec30-8622-3139-afeb39f17ffa" Panel.Bounds="305,463,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Rectangle Color="#00FFFFFF" Background="#FF555555" Opacity="0.8" Id="e678c986-e43f-aeda-0bc7-1e84baf500ac" Panel.Bounds="185,565,153{5,2147483647},51{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Label Text="Tomato soup" Foreground="#FFFFFFFF" FontSize="16" FontStyle="Bold" Id="4d13271e-f702-7df4-8ad0-eb1f04e084b8" Panel.Bounds="191,579,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84c566af-35db-f959-d806-ba84c499e275">
+                            <Add.Item>
+                                <Label Text="Orange chicken" Foreground="#FFFFFFFF" FontSize="16" FontStyle="Bold" Id="7fec9b3d-55e9-82de-391d-787d5c0e3492" Panel.Bounds="17,536,158{5,2147483647},22*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
